@@ -2,22 +2,19 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { sum } from '@cjl-template-mono-repo/library';
+
 const App: React.FC = () => {
+  const a = 10;
+  const b = 25;
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          {`${a} + ${b} = ${sum(a, b)}`}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
