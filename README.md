@@ -3,3 +3,18 @@
 This is the official base template for [Create JS Library](https://github.com/pethersonmoreno/create-libjs).
 
 To use this template, add `--template mono-repo` when creating a new library.
+
+
+## Usage
+
+Installation
+
+```sh
+yarn
+```
+
+Building and serving the app
+
+```sh
+yarn start
+```
