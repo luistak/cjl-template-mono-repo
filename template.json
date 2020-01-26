@@ -1,0 +1,17 @@
+{
+  "config": {
+    "updatePackageNames": true,
+    "additionalUpdatePackageNames": ["packages/app/src/App.tsx"]
+  },
+  "package": {
+    "description": "Project created with cjl-template-mono-repo",
+    "scripts": {
+      "postinstall": "lerna bootstrap",
+      "start:app": "lerna run --scope @cjl-template-mono-repo/app start",
+      "start": "yarn start:app"
+    },
+    "dependencies": {
+      "lerna": "^3.20.2"
+    }
+  }
+}

@@ -1,16 +1,21 @@
 {
   "name": "cjl-template-mono-repo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "CJL monorepo template",
   "repository": "git@github.com:luistak/cjl-template-mono-repo.git",
   "author": "Luis <takahashihideki408@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "postinstall": "lerna bootstrap",
-    "start:app": "lerna run --scope @cjl-template-mono-repo/app start",
-    "start": "yarn start:app"
+  "main": "template.json",
+  "keywords": [
+    "create-libjs",
+    "template",
+    "lerna"
+  ],
+  "engines": {
+    "node": ">=8.10"
   },
-  "dependencies": {
-    "lerna": "^3.20.2"
-  }
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
