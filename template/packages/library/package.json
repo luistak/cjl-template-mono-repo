@@ -4,7 +4,6 @@
   "author": "Luis <takahashihideki408@gmail.com>",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["/dist"],
   "scripts": {
     "build": "tsc",
     "prepare": "yarn build"
